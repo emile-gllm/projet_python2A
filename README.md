@@ -21,6 +21,12 @@ Nos données sont issues de la base Deepseas wave 2, étude commandée par la co
 
 Nous avons dû ensuite nettoyer la base en recodant des variables mal codées ou dans de mauvaises unités.
 
-## Statistiques descriptives
+## Statistiques descriptives et traitement des valeurs manquantes
 
-Après avoir 
+Après une analyse non exhaustive sur le plan européen, nous sélectionnons des pays qui nous semblent pouvoir donner différents profils de consommateurs d'alcool. Nous faisons des statistiques descriptives sur ceux-ci et repérons les imputations les plus adaptées pour quelques variables contenant de nombreuses valeurs manquantes. 
+Nous imputons alors les variables qui en valent le coup soit par la méthode KNN soit par la méthode MICE.
+Nous essayons alors de cerner des profils d'individus en utilisant des ACP et des ACM par pays.
+
+## Modélisation
+Enfin, nous essayons de modéliser la consommation d'alcool des individus selon leurs caractéristiques socio-économico-psychologiques via des régressions linéaires. 
+
