@@ -3,21 +3,21 @@
 # Profils des consommateurs d'alcools européens
 
 ## Objectif du projet
-De nombreuses études semblent s'être intéressées à déterminer économétriquement les déterminants socio-économiques voire psychologiques de la consommation d'alcool dans certains pays, notamment en Europe où la consommation est la plus élevée au monde. Ces études se concentrent souvent sur un pays en particulier à l'instar de l'étude menée en Angleterre (PLOS ONE - 2018) qui démontre notamment que si les groupes socio-économiques les plus aisés boivent plus fréquemment, les populations les plus défavorisées ont une probabilité bien plus élevée d'avoir une consommation excessive et nocive. Une étude menée sur des données tchèques en 2015 (Econstor) identifie elle, par exemple, que le sexe et le tabagisme sont des prédicteurs majeurs de l'abus d'alcool. Nous nous sommes alors demandé si ce genre de résultat était généralisable à tous les pays européens. En utilisant le 2021 Standard European Alcohol Survey (Deepseas), nous nous proposons donc de répondre à la question  suivante: les déterminants socio-économiques et psychologiques de la consommation d’alcool sont-ils semblables en Europe, ou leur poids varie-t-il selon les contextes nationaux et les profils de risque ?
+De nombreuses études semblent s'être intéressées à déterminer économétriquement les déterminants socio-économiques, voire psychologiques de la consommation d'alcool dans certains pays, notamment en Europe où la consommation est la plus élevée au monde. Ces études se concentrent souvent sur un pays en particulier à l'instar de l'étude menée en Angleterre (PLOS ONE - 2018) qui démontre notamment que si les groupes socio-économiques les plus aisés boivent plus fréquemment, les populations les plus défavorisées ont une probabilité bien plus élevée d'avoir une consommation excessive et nocive. Une étude menée sur des données tchèques en 2015 (Econstor) identifie elle, par exemple, que le sexe et le tabagisme sont des prédicteurs majeurs de l'abus d'alcool. Nous nous sommes alors demandé si ce genre de résultat était généralisable à tous les pays européens. En utilisant le 2021 Standard European Alcohol Survey (Deepseas), nous nous proposons donc de répondre à la question  suivante: les déterminants socio-économiques et psychologiques de la consommation d’alcool sont-ils semblables en Europe, ou leur poids varie-t-il selon les contextes nationaux et les profils de risque ?
 
 ## Structure du répertoire
 
-Le répertoire est constitué:
+Le répertoire est constitué :
 - d'un dossier "Data" avec le codebook et un guide sur le codage de certaines variables (la base de données n'est pas mise en accès libre ici);
 - d'un notebook où sont appelées des fonctions et où l'étude statistique est commentée;
-- d'un dossier "Scripts" où sont enregistrées les fichiers contenant les fonctions;
+- d'un dossier "Scripts" où sont enregistrés les fichiers contenant les fonctions;
 - D'un fichier requirements.txt où sont listées les librairies à importer.
 
 NB:(Pour exécuter le notebook, vous devez utiliser le lien transmis comme url).
 
 ## Récupération des données
 
-Nos données sont issues de la base Deepseas wave 2, étude commandée par la commission européenne en 2019. Au moment de la rédaction de cette présentation, les données ne semblent plus accessibles sur le site où nous les avons prises https://www.deep-seas.eu. Vous pouvez cependant retrouver la page de l'archive du site sur Google Cached via ce même lien. 
+Nos données sont issues de la base Deepseas wave 2, étude commandée par la Commission européenne en 2019. Au moment de la rédaction de cette présentation, le site sur lequel nous avons pris nos données ne semble plus accessible (https://www.deep-seas.eu). Vous pouvez cependant retrouver la page de l'archive du site sur Google Cached via ce même lien. 
 
 Nous avons dû ensuite nettoyer la base en recodant des variables mal codées ou dans de mauvaises unités.
 
