@@ -28,5 +28,5 @@ Nous imputons alors les variables qui en valent le coup soit par la méthode KNN
 Nous essayons alors de cerner des profils d'individus en utilisant des ACP et des ACM par pays.
 
 ## Modélisation
-Enfin, nous essayons de modéliser la consommation d'alcool des individus selon leurs caractéristiques socio-économico-psychologiques via des régressions linéaires. 
+Enfin, pour chaque pays choisi, nous essayons de modéliser la consommation d'alcool des individus selon leurs caractéristiques socio-économico-psychologiques via des régressions linéaires. 
 
