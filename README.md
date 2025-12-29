@@ -19,14 +19,14 @@ NB:(Pour exécuter le notebook, vous devez utiliser le lien transmis comme url).
 
 Nos données sont issues de la base Deepseas wave 2, étude commandée par la Commission européenne en 2019. Au moment de la rédaction de cette présentation, le site sur lequel nous avons pris nos données ne semble plus accessible (https://www.deep-seas.eu). Vous pouvez cependant retrouver la page de l'archive du site sur Google Cached via ce même lien. 
 
-Nous avons dû ensuite nettoyer la base en recodant des variables mal codées ou dans de mauvaises unités.
+Nous avons dû ensuite nettoyer la base en recodant des variables mal codées ou dans des unités non appropriées.
 
 ## Statistiques descriptives et traitement des valeurs manquantes
 
-Après une analyse non exhaustive sur le plan européen, nous sélectionnons des pays qui nous semblent pouvoir donner différents profils de consommateurs d'alcool. Nous faisons des statistiques descriptives sur ceux-ci et repérons les imputations les plus adaptées pour quelques variables contenant de nombreuses valeurs manquantes. 
-Nous imputons alors les variables qui en valent le coup soit par la méthode KNN soit par la méthode MICE.
+Après une analyse non exhaustive sur le plan européen (partie I du notebook), nous sélectionnons des pays qui nous semblent pouvoir donner différents profils de consommateurs d'alcool. Nous faisons des statistiques descriptives sur ceux-ci (partie II - A) et repérons les imputations les plus adaptées pour quelques variables contenant de nombreuses valeurs manquantes. 
+Nous imputons alors les variables qui en valent le coup soit par la méthode KNN soit par la méthode MICE (partie II - B).
 Nous essayons alors de cerner des profils d'individus en utilisant des ACP et des ACM par pays.
 
 ## Modélisation
-Enfin, pour chaque pays choisi, nous essayons de modéliser la consommation d'alcool des individus selon leurs caractéristiques socio-économico-psychologiques via des régressions linéaires. 
+Enfin, pour chaque pays choisi, nous essayons de modéliser la consommation d'alcool des individus selon leurs caractéristiques socio-économico-psychologiques via des régressions linéaires (Partie III). 
 
